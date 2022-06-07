@@ -1,0 +1,19 @@
+{
+  "name": "tensorflow_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "predict": "node ./src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.15.0",
+    "@tensorflow/tfjs-node-gpu": "^3.15.0",
+    "express": "^4.17.3",
+    "jimp": "^0.16.1"
+  }
+}
